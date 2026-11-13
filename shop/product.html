@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ნივთის დეტალური ინფორმაცია — STEP Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">
+        <span class="logo__mark">S</span>
+        <span>STEP Store<span class="logo__sub"> · ონლაინ მაღაზია</span></span>
+      </a>
+
+      <form class="search" id="searchForm" role="search" action="index.html" method="get">
+        <span class="search__icon">🔍</span>
+        <input type="search" name="q" placeholder="მოძებნე ნივთი სახელწოდებით…" autocomplete="off" />
+      </form>
+
+      <div class="header__actions">
+        <button class="icon-btn" data-auth-btn type="button">
+          <span>👤</span><span data-auth-label>შესვლა</span>
+        </button>
+        <a class="icon-btn icon-btn--cart" href="cart.html" title="კალათა">
+          <span>🛒</span>
+          <span class="badge is-empty" data-cart-count>0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumbs" id="breadcrumbs">
+      <a href="index.html">მთავარი</a> <span>/</span> <span>ნივთი</span>
+    </nav>
+
+    <div id="detailRoot">
+      <div class="detail">
+        <div class="skeleton" style="aspect-ratio:1/1;border-radius:14px"></div>
+        <div>
+          <div class="skeleton" style="height:22px;width:40%;margin-bottom:14px"></div>
+          <div class="skeleton" style="height:34px;width:85%;margin-bottom:10px"></div>
+          <div class="skeleton" style="height:18px;width:55%;margin-bottom:26px"></div>
+          <div class="skeleton" style="height:48px;width:100%"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ====== შეფასების მოდალური ფანჯარა ====== -->
+  <div class="modal" id="reviewModal" role="dialog" aria-modal="true" aria-labelledby="reviewTitle">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__box">
+      <button class="modal__x" data-close-modal aria-label="დახურვა">&times;</button>
+      <h2 class="modal__title" id="reviewTitle">დაწერე შეფასება</h2>
+      <p class="modal__sub" id="reviewProductName"></p>
+
+      <form id="reviewForm" class="form" style="margin-top:16px">
+        <div class="field">
+          <span>Rating — შეაფასე ვარსკვლავებით</span>
+          <div class="star-picker" id="starPicker">
+            <button type="button" data-value="1" aria-label="1">★</button>
+            <button type="button" data-value="2" aria-label="2">★</button>
+            <button type="button" data-value="3" aria-label="3">★</button>
+            <button type="button" data-value="4" aria-label="4">★</button>
+            <button type="button" data-value="5" aria-label="5">★</button>
+          </div>
+          <p class="hint" id="ratingHint">აირჩიეთ შეფასება 1-დან 5-მდე</p>
+        </div>
+
+        <label class="field">
+          <span>ტექსტი</span>
+          <textarea class="textarea" id="reviewTextarea" placeholder="რა მოგეწონათ ან არ მოგეწონათ ამ ნივთში?"></textarea>
+        </label>
+
+        <div class="modal__foot">
+          <button type="button" class="btn btn--ghost" data-close-modal>გაუქმება</button>
+          <button type="submit" class="btn btn--primary" id="reviewSubmit">OK</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span><small>ლოკალური კატალოგი სადემონსტრაციოა: ფასები, მარაგი და შეფასებები პირობითია.</small></span>
+      <span>კატალოგი: პროცესორები და ვიდეოდაფები</span>
+    </div>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/local-products.js"></script>
+  <script src="js/cart-service.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/product.js"></script>
+</body>
+</html>
