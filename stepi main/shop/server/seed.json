@@ -1,0 +1,660 @@
+{
+  "categories": [
+    {
+      "id": "cpu",
+      "name": "პროცესორები",
+      "image": "img/products/r7-7800x3d.svg"
+    },
+    {
+      "id": "gpu",
+      "name": "ვიდეოდაფები",
+      "image": "img/products/rtx4070s-msi.svg"
+    }
+  ],
+  "products": [
+    {
+      "_id": "local-r7-7800x3d",
+      "title": "AMD Ryzen 7 7800X3D",
+      "brand": "AMD",
+      "description": "8 ბირთვი / 16 ნაკადი, 3D V-Cache ტექნოლოგია და 104 MB საერთო ქეში. თამაშებისთვის დღესდღეობით ერთ-ერთი ყველაზე ეფექტური პროცესორი AM5 სოკეტზე, TDP სულ რაღაც 120 ვატი.",
+      "issueDate": "2023-04-06T00:00:00.000Z",
+      "thumbnail": "img/products/r7-7800x3d.svg",
+      "images": [
+        "img/products/r7-7800x3d.svg",
+        "img/products/r7-7800x3d-b.svg"
+      ],
+      "stock": 14,
+      "rating": 4.8,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 389,
+        "currency": "USD",
+        "beforeDiscount": 449,
+        "discountPercentage": 13
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-r7-7800x3d-0",
+          "name": "გიორგი კაპანაძე",
+          "text": "თამაშებში უბრალოდ ურჩხულია, 1% low მაჩვენებლები ძალიან სტაბილურია.",
+          "value": 5,
+          "createdAt": "2026-11-01T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-r7-7800x3d-1",
+          "name": "ნინო ბერიძე",
+          "text": "ცივი და ჩუმია, 7700X-თან შედარებით განსხვავება აშკარაა.",
+          "value": 5,
+          "createdAt": "2026-10-10T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-r7-7800x3d-2",
+          "name": "Data Center",
+          "text": "რენდერში უფრო მეტბირთვიანი მოდელი ჯობია, თამაშებში კი — საუკეთესო.",
+          "value": 4,
+          "createdAt": "2026-09-13T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-r5-7600x",
+      "title": "AMD Ryzen 5 7600X",
+      "brand": "AMD",
+      "description": "6 ბირთვი / 12 ნაკადი, ბუსტი 5.3 GHz-მდე. შესანიშნავი არჩევანი საშუალო ფასის თამაშების კომპიუტერისთვის, PCIe 5.0 და DDR5 მხარდაჭერით.",
+      "issueDate": "2022-09-27T00:00:00.000Z",
+      "thumbnail": "img/products/r5-7600x.svg",
+      "images": [
+        "img/products/r5-7600x.svg",
+        "img/products/r5-7600x-b.svg"
+      ],
+      "stock": 26,
+      "rating": 4.6,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 219,
+        "currency": "USD",
+        "beforeDiscount": 219,
+        "discountPercentage": 0
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-r5-7600x-0",
+          "name": "ლევან ჩხეიძე",
+          "text": "ფასი/ხარისხით საუკეთესოა, 1440p-ზე ვიდეოდაფას სრულად ტვირთავს.",
+          "value": 5,
+          "createdAt": "2026-11-05T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-r5-7600x-1",
+          "name": "Mamuka G.",
+          "text": "კარგია, მაგრამ ნორმალური ქულერი აუცილებლად დასჭირდება.",
+          "value": 4,
+          "createdAt": "2026-09-29T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-r9-7950x",
+      "title": "AMD Ryzen 9 7950X",
+      "brand": "AMD",
+      "description": "16 ბირთვი / 32 ნაკადი, 80 MB ქეში, ბუსტი 5.7 GHz-მდე. მძიმე სამუშაო დატვირთვისთვის: 3D რენდერი, ვიდეომონტაჟი, კომპილაცია და ვირტუალიზაცია.",
+      "issueDate": "2022-09-27T00:00:00.000Z",
+      "thumbnail": "img/products/r9-7950x.svg",
+      "images": [
+        "img/products/r9-7950x.svg",
+        "img/products/r9-7950x-b.svg"
+      ],
+      "stock": 8,
+      "rating": 4.7,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 549,
+        "currency": "USD",
+        "beforeDiscount": 599,
+        "discountPercentage": 8
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-r9-7950x-0",
+          "name": "Studio Arch",
+          "text": "Blender-ში რენდერის დრო თითქმის განახევრდა.",
+          "value": 5,
+          "createdAt": "2026-10-25T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-r9-7950x-1",
+          "name": "ანა მელაძე",
+          "text": "წარმადობა ფანტასტიკურია, მაგრამ გაგრილებას სერიოზულად უნდა მიხედო.",
+          "value": 4,
+          "createdAt": "2026-09-22T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-r5-5600",
+      "title": "AMD Ryzen 5 5600",
+      "brand": "AMD",
+      "description": "6 ბირთვი / 12 ნაკადი AM4 პლატფორმისთვის. იდეალური არჩევანი ბიუჯეტური აწყობისთვის ან ძველი AM4 სისტემის განახლებისთვის — ძვირადღირებული DDR5 და ახალი დედაპლატა არ სჭირდება.",
+      "issueDate": "2022-04-04T00:00:00.000Z",
+      "thumbnail": "img/products/r5-5600.svg",
+      "images": [
+        "img/products/r5-5600.svg",
+        "img/products/r5-5600-b.svg"
+      ],
+      "stock": 31,
+      "rating": 4.5,
+      "warranty": "2 წელი",
+      "price": {
+        "current": 119,
+        "currency": "USD",
+        "beforeDiscount": 149,
+        "discountPercentage": 20
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-r5-5600-0",
+          "name": "Beka P.",
+          "text": "ძველ B450-ზე დავაყენე, BIOS-ის განახლების შემდეგ ყველაფერი მუშაობს.",
+          "value": 5,
+          "createdAt": "2026-10-21T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-r5-5600-1",
+          "name": "თამარ ჯანაშია",
+          "text": "ამ ფასად კონკურენცია პრაქტიკულად არ აქვს.",
+          "value": 4,
+          "createdAt": "2026-09-04T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-i5-14600k",
+      "title": "Intel Core i5-14600K",
+      "brand": "Intel",
+      "description": "14 ბირთვი (6P + 8E) / 20 ნაკადი, ბუსტი 5.3 GHz-მდე. დაბლოკილი მამრავლი ოვერკლოკინგისთვის და ჩაშენებული გრაფიკა UHD 770.",
+      "issueDate": "2023-10-17T00:00:00.000Z",
+      "thumbnail": "img/products/i5-14600k.svg",
+      "images": [
+        "img/products/i5-14600k.svg",
+        "img/products/i5-14600k-b.svg"
+      ],
+      "stock": 18,
+      "rating": 4.5,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 279,
+        "currency": "USD",
+        "beforeDiscount": 319,
+        "discountPercentage": 13
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-i5-14600k-0",
+          "name": "Nika R.",
+          "text": "სტრიმინგი და თამაში ერთდროულად — პრობლემის გარეშე.",
+          "value": 5,
+          "createdAt": "2026-10-29T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-i5-14600k-1",
+          "name": "გიორგი ხარაიშვილი",
+          "text": "კარგი პროცესორია, მაგრამ ენერგომოხმარება მაღალია.",
+          "value": 4,
+          "createdAt": "2026-10-04T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-i7-14700k",
+      "title": "Intel Core i7-14700K",
+      "brand": "Intel",
+      "description": "20 ბირთვი (8P + 12E) / 28 ნაკადი, 33 MB L3 ქეში. ძლიერი ჰიბრიდი თამაშებისა და პროფესიული სამუშაოსთვის LGA1700 სოკეტზე.",
+      "issueDate": "2023-10-17T00:00:00.000Z",
+      "thumbnail": "img/products/i7-14700k.svg",
+      "images": [
+        "img/products/i7-14700k.svg",
+        "img/products/i7-14700k-b.svg"
+      ],
+      "stock": 12,
+      "rating": 4.6,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 389,
+        "currency": "USD",
+        "beforeDiscount": 389,
+        "discountPercentage": 0
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-i7-14700k-0",
+          "name": "Vato K.",
+          "text": "მონტაჟში E-ბირთვები ძალიან კარგად ეხმარება.",
+          "value": 5,
+          "createdAt": "2026-11-02T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-i9-14900k",
+      "title": "Intel Core i9-14900K",
+      "brand": "Intel",
+      "description": "24 ბირთვი (8P + 16E) / 32 ნაკადი და ბუსტი 6.0 GHz-მდე. მაქსიმალური წარმადობა, თუმცა საჭიროებს ძლიერ გაგრილებას და ხარისხიან კვების ბლოკს.",
+      "issueDate": "2023-10-17T00:00:00.000Z",
+      "thumbnail": "img/products/i9-14900k.svg",
+      "images": [
+        "img/products/i9-14900k.svg",
+        "img/products/i9-14900k-b.svg"
+      ],
+      "stock": 6,
+      "rating": 4.3,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 549,
+        "currency": "USD",
+        "beforeDiscount": 549,
+        "discountPercentage": 0
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-i9-14900k-0",
+          "name": "Overclock.ge",
+          "text": "სიჩქარე შთამბეჭდავია, მაგრამ 360 მმ AIO აუცილებელია.",
+          "value": 4,
+          "createdAt": "2026-10-17T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-i9-14900k-1",
+          "name": "სანდრო",
+          "text": "ცხელა, მაგრამ წარმადობა თავის ფასს ამართლებს.",
+          "value": 4,
+          "createdAt": "2026-09-19T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-i3-14100f",
+      "title": "Intel Core i3-14100F",
+      "brand": "Intel",
+      "description": "4 ბირთვი / 8 ნაკადი, ბუსტი 4.7 GHz-მდე, ჩაშენებული გრაფიკის გარეშე. ბიუჯეტური აწყობისთვის, სადაც ცალკე ვიდეოდაფა ისედაც იგეგმება.",
+      "issueDate": "2024-01-08T00:00:00.000Z",
+      "thumbnail": "img/products/i3-14100f.svg",
+      "images": [
+        "img/products/i3-14100f.svg",
+        "img/products/i3-14100f-b.svg"
+      ],
+      "stock": 37,
+      "rating": 4.2,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 109,
+        "currency": "USD",
+        "beforeDiscount": 109,
+        "discountPercentage": 0
+      },
+      "category": {
+        "id": "cpu",
+        "name": "პროცესორები",
+        "image": "img/products/r7-7800x3d.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-i3-14100f-0",
+          "name": "Student Build",
+          "text": "საოფისე და E-Sports თამაშებისთვის სრულიად საკმარისია.",
+          "value": 4,
+          "createdAt": "2026-11-04T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rtx4060-asus",
+      "title": "ASUS Dual GeForce RTX 4060 OC 8GB",
+      "brand": "ASUS",
+      "description": "8 GB GDDR6, 128-ბიტიანი შინა, DLSS 3 მხარდაჭერა. კომპაქტური ორქულერიანი დიზაინი და მხოლოდ 115 ვატი — იდეალურია 1080p თამაშებისთვის.",
+      "issueDate": "2023-06-29T00:00:00.000Z",
+      "thumbnail": "img/products/rtx4060-asus.svg",
+      "images": [
+        "img/products/rtx4060-asus.svg",
+        "img/products/rtx4060-asus-b.svg"
+      ],
+      "stock": 21,
+      "rating": 4.3,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 309,
+        "currency": "USD",
+        "beforeDiscount": 339,
+        "discountPercentage": 9
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rtx4060-asus-0",
+          "name": "Luka T.",
+          "text": "ჩუმია და ცივი, 1080p-ზე ყველაფერს ულტრაზე ექაჩება.",
+          "value": 4,
+          "createdAt": "2026-10-30T16:17:10.615Z"
+        },
+        {
+          "userId": "seed-rtx4060-asus-1",
+          "name": "ირაკლი",
+          "text": "8 GB ვიდეომეხსიერება ზოგ ახალ თამაშში უკვე ზღვარზეა.",
+          "value": 4,
+          "createdAt": "2026-10-06T16:17:10.615Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rtx4070s-msi",
+      "title": "MSI GeForce RTX 4070 SUPER Ventus 3X 12GB",
+      "brand": "MSI",
+      "description": "12 GB GDDR6X, 7168 CUDA ბირთვი და სამქულერიანი Ventus 3X გაგრილება. საუკეთესო არჩევანი 1440p თამაშებისთვის მაღალი კადრების სიხშირით.",
+      "issueDate": "2024-01-17T00:00:00.000Z",
+      "thumbnail": "img/products/rtx4070s-msi.svg",
+      "images": [
+        "img/products/rtx4070s-msi.svg",
+        "img/products/rtx4070s-msi-b.svg"
+      ],
+      "stock": 9,
+      "rating": 4.7,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 619,
+        "currency": "USD",
+        "beforeDiscount": 669,
+        "discountPercentage": 7
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rtx4070s-msi-0",
+          "name": "Giorgi M.",
+          "text": "1440p ულტრა + Ray Tracing — სტაბილური 100+ FPS.",
+          "value": 5,
+          "createdAt": "2026-11-07T16:17:10.616Z"
+        },
+        {
+          "userId": "seed-rtx4070s-msi-1",
+          "name": "PC Lab",
+          "text": "ტემპერატურა დატვირთვის დროსაც კი 65°C-ს არ სცდება.",
+          "value": 5,
+          "createdAt": "2026-10-23T16:17:10.616Z"
+        },
+        {
+          "userId": "seed-rtx4070s-msi-2",
+          "name": "Nino K.",
+          "text": "კარგია, მაგრამ კორპუსში ადგილი გაზომე — დიდია.",
+          "value": 4,
+          "createdAt": "2026-09-30T16:17:10.616Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rtx4080s-gb",
+      "title": "Gigabyte GeForce RTX 4080 SUPER Gaming OC 16GB",
+      "brand": "Gigabyte",
+      "description": "16 GB GDDR6X, 10240 CUDA ბირთვი. 4K თამაშებისა და პროფესიული რენდერისთვის — DLSS 3 და AV1 კოდირების მხარდაჭერით.",
+      "issueDate": "2024-01-31T00:00:00.000Z",
+      "thumbnail": "img/products/rtx4080s-gb.svg",
+      "images": [
+        "img/products/rtx4080s-gb.svg",
+        "img/products/rtx4080s-gb-b.svg"
+      ],
+      "stock": 4,
+      "rating": 4.8,
+      "warranty": "4 წელი",
+      "price": {
+        "current": 1049,
+        "currency": "USD",
+        "beforeDiscount": 1129,
+        "discountPercentage": 7
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rtx4080s-gb-0",
+          "name": "Render Farm",
+          "text": "4K-ზე ულტრა პარამეტრები ყოველგვარი კომპრომისის გარეშე.",
+          "value": 5,
+          "createdAt": "2026-10-27T16:17:10.616Z"
+        },
+        {
+          "userId": "seed-rtx4080s-gb-1",
+          "name": "Dato",
+          "text": "ძვირია, მაგრამ წლების განმავლობაში აღარაფერი დაგჭირდება.",
+          "value": 5,
+          "createdAt": "2026-09-26T16:17:10.616Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rtx4070tis-zotac",
+      "title": "Zotac GeForce RTX 4070 Ti SUPER Trinity 16GB",
+      "brand": "Zotac",
+      "description": "16 GB GDDR6X და 256-ბიტიანი შინა. ოქროს შუალედი 4070 SUPER-სა და 4080-ს შორის — თამაშებისთვისაც და 3D სამუშაოსთვისაც.",
+      "issueDate": "2024-01-24T00:00:00.000Z",
+      "thumbnail": "img/products/rtx4070tis-zotac.svg",
+      "images": [
+        "img/products/rtx4070tis-zotac.svg",
+        "img/products/rtx4070tis-zotac-b.svg"
+      ],
+      "stock": 7,
+      "rating": 4.6,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 819,
+        "currency": "USD",
+        "beforeDiscount": 819,
+        "discountPercentage": 0
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rtx4070tis-zotac-0",
+          "name": "Saba L.",
+          "text": "16 GB მეხსიერება მომავლისთვის კარგი დაზღვევაა.",
+          "value": 5,
+          "createdAt": "2026-10-31T16:17:10.616Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rx7800xt-sapphire",
+      "title": "Sapphire PULSE Radeon RX 7800 XT 16GB",
+      "brand": "Sapphire",
+      "description": "16 GB GDDR6, RDNA 3 არქიტექტურა. 1440p თამაშებში RTX 4070-ის დონის წარმადობა, მეტი ვიდეომეხსიერება და მიმზიდველი ფასი.",
+      "issueDate": "2023-09-06T00:00:00.000Z",
+      "thumbnail": "img/products/rx7800xt-sapphire.svg",
+      "images": [
+        "img/products/rx7800xt-sapphire.svg",
+        "img/products/rx7800xt-sapphire-b.svg"
+      ],
+      "stock": 11,
+      "rating": 4.6,
+      "warranty": "2 წელი",
+      "price": {
+        "current": 489,
+        "currency": "USD",
+        "beforeDiscount": 529,
+        "discountPercentage": 8
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rx7800xt-sapphire-0",
+          "name": "Zura B.",
+          "text": "რასტერიზაციაში ფასისთვის უბადლოა.",
+          "value": 5,
+          "createdAt": "2026-11-03T16:17:10.616Z"
+        },
+        {
+          "userId": "seed-rx7800xt-sapphire-1",
+          "name": "Mariam",
+          "text": "დრაივერები უკვე სტაბილურია, Ray Tracing კი ოდნავ სუსტია.",
+          "value": 4,
+          "createdAt": "2026-10-08T16:17:10.616Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rx7900xtx-asus",
+      "title": "ASUS TUF Radeon RX 7900 XTX 24GB",
+      "brand": "ASUS",
+      "description": "24 GB GDDR6 — ყველაზე დიდი ვიდეომეხსიერება ამ კლასში. 4K თამაშებისთვის და დიდი ტექსტურებით მუშაობისთვის, გამძლე TUF გაგრილებით.",
+      "issueDate": "2022-12-13T00:00:00.000Z",
+      "thumbnail": "img/products/rx7900xtx-asus.svg",
+      "images": [
+        "img/products/rx7900xtx-asus.svg",
+        "img/products/rx7900xtx-asus-b.svg"
+      ],
+      "stock": 5,
+      "rating": 4.7,
+      "warranty": "3 წელი",
+      "price": {
+        "current": 949,
+        "currency": "USD",
+        "beforeDiscount": 999,
+        "discountPercentage": 5
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rx7900xtx-asus-0",
+          "name": "Workstation.ge",
+          "text": "24 GB მეხსიერება ლოკალური ნეირონული მოდელებისთვისაც კმარა.",
+          "value": 5,
+          "createdAt": "2026-10-19T16:17:10.616Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rx7600-msi",
+      "title": "MSI Radeon RX 7600 8GB",
+      "brand": "MSI",
+      "description": "8 GB GDDR6 ბიუჯეტური 1080p თამაშებისთვის. დაბალი ენერგომოხმარება (165 ვატი) და კომპაქტური ზომა მცირე კორპუსებისთვის.",
+      "issueDate": "2023-05-25T00:00:00.000Z",
+      "thumbnail": "img/products/rx7600-msi.svg",
+      "images": [
+        "img/products/rx7600-msi.svg",
+        "img/products/rx7600-msi-b.svg"
+      ],
+      "stock": 17,
+      "rating": 4.1,
+      "warranty": "2 წელი",
+      "price": {
+        "current": 259,
+        "currency": "USD",
+        "beforeDiscount": 289,
+        "discountPercentage": 10
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rx7600-msi-0",
+          "name": "Beqa",
+          "text": "ფასად ძნელად სანახავი კონკურენტი ჰყავს 1080p სეგმენტში.",
+          "value": 4,
+          "createdAt": "2026-10-24T16:17:10.616Z"
+        }
+      ]
+    },
+    {
+      "_id": "local-rtx3050-gb",
+      "title": "Gigabyte GeForce RTX 3050 6GB",
+      "brand": "Gigabyte",
+      "description": "6 GB GDDR6, მხოლოდ 70 ვატი და დამატებითი კვების კაბელის გარეშე მუშაობის შესაძლებლობა. კარგი არჩევანი საოფისე კომპიუტერის თამაშებისთვის გადასაკეთებლად.",
+      "issueDate": "2024-02-02T00:00:00.000Z",
+      "thumbnail": "img/products/rtx3050-gb.svg",
+      "images": [
+        "img/products/rtx3050-gb.svg",
+        "img/products/rtx3050-gb-b.svg"
+      ],
+      "stock": 24,
+      "rating": 4,
+      "warranty": "2 წელი",
+      "price": {
+        "current": 179,
+        "currency": "USD",
+        "beforeDiscount": 179,
+        "discountPercentage": 0
+      },
+      "category": {
+        "id": "gpu",
+        "name": "ვიდეოდაფები",
+        "image": "img/products/rtx4070s-msi.svg"
+      },
+      "ratings": [
+        {
+          "userId": "seed-rtx3050-gb-0",
+          "name": "Office Build",
+          "text": "ძველ ოფისურ კომპიუტერში ჩავსვი — კვების ბლოკის შეცვლაც არ დამჭირდა.",
+          "value": 4,
+          "createdAt": "2026-11-06T16:17:10.616Z"
+        }
+      ]
+    }
+  ]
+}
